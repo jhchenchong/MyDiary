@@ -205,6 +205,8 @@ static NSString *identifier = @"cellID";
     
     detailVC.dataSource = self.dataSource;
     
+    detailVC.index = indexPath.row;
+    
     detailVC.block = ^{
         
         [self.animatedImageView startAnimating];

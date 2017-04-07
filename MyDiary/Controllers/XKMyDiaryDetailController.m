@@ -21,7 +21,20 @@
     
     [super viewDidLoad];
     
+    self.view.layer.contents = (__bridge id)[UIImage imageNamed:@"detailBG"].CGImage;
+    
     [self.view addSubview:self.collectionView];
+    
+    if (self.index) {
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            
+            NSIndexPath *indexPath = [NSIndexPath indexPathForRow:self.index inSection:0];
+            
+            [self.collectionView scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionLeft animated:NO];
+            
+        });
+    }
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
@@ -83,7 +96,7 @@
         
         _collectionView.pagingEnabled = YES;
         
-        _collectionView.backgroundColor = [UIColor whiteColor];
+        _collectionView.backgroundColor = [UIColor clearColor];
         
         [_collectionView registerClass:[XKMyDiaryDetailCell class] forCellWithReuseIdentifier:@"cellID"];
     }

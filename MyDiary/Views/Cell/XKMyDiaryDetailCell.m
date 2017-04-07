@@ -32,6 +32,8 @@
     
     if (self) {
         
+        self.backgroundColor = [UIColor clearColor];
+        
         [self initUserInterface];
     }
     return self;

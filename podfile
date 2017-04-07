@@ -1,0 +1,11 @@
+inhibit_all_warnings!
+target 'MyDiary' do
+platform :ios, "8.0"
+use_frameworks!
+pod 'MJRefresh'
+pod 'SVProgressHUD'
+pod 'Masonry'
+pod 'AnimatedLayout'
+pod 'YYCache'
+pod 'YYModel'
+end

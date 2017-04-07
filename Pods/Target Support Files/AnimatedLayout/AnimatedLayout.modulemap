@@ -1,0 +1,6 @@
+framework module AnimatedLayout {
+  umbrella header "AnimatedLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

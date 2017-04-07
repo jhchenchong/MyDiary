@@ -1,0 +1,41 @@
+//
+//  MyDiary.pch
+//  MyDiary
+//
+//  Created by 浪漫恋星空 on 2017/3/25.
+//  Copyright © 2017年 浪漫恋星空. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+/// 核心框架
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <Photos/Photos.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+
+/// 宏
+#import "CLDefine.h"
+
+
+/// 三方框架
+#import <Masonry/Masonry.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <MJRefresh/MJRefresh.h>
+#import <AnimatedLayout/AnimatedCollectionViewLayout.h>
+#import <YYCache/YYCache.h>
+#import <YYModel/YYModel.h>
+
+
+/// 自定义的工具类
+#import "UILabel+XKLabel.h"
+#import "NSDate+XKDate.h"
+#import "UIImage+XKImage.h"
+#import "XKMyDiaryCache.h"
+#import "XKMydiaryProgressHUD.h"
+
+
+#import "XKDiaryModel.h"
+
+#endif
+

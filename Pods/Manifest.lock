@@ -1,0 +1,27 @@
+PODS:
+  - AnimatedLayout (1.0.0)
+  - Masonry (1.0.2)
+  - MJRefresh (3.1.12)
+  - SVProgressHUD (2.1.2)
+  - YYCache (1.0.4)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - AnimatedLayout
+  - Masonry
+  - MJRefresh
+  - SVProgressHUD
+  - YYCache
+  - YYModel
+
+SPEC CHECKSUMS:
+  AnimatedLayout: a25be8498feea91a93ee59d901bed0c2eba1cd39
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: f323f8acc903bc5a065bcefc897664017a2690c2
+
+COCOAPODS: 1.1.1

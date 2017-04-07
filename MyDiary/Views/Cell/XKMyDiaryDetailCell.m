@@ -184,9 +184,7 @@
         
         _monthLabel = [UILabel configLabelWithFont:@"STHeitiSC-Medium" fontSize:20 textAlignment:NSTextAlignmentCenter];
         
-        _monthLabel.textColor = MyDiaryThemeBlueColor;
-        
-        _monthLabel.text = @"2017年，4月";
+        _monthLabel.textColor = [UIColor whiteColor];
         
         [_monthLabel sizeToFit];
     }
@@ -199,9 +197,7 @@
         
         _dayLabel = [UILabel configLabelWithFont:@"STHeitiTC-Light" fontSize:40 textAlignment:NSTextAlignmentCenter];
         
-        _dayLabel.textColor = MyDiaryThemeBlueColor;
-        
-        _dayLabel.text = @"6";
+        _dayLabel.textColor = [UIColor whiteColor];
         
         [_dayLabel sizeToFit];
     
@@ -215,9 +211,7 @@
         
         _timeLabel = [UILabel configLabelWithFont:@"STHeitiTC-Light" fontSize:20 textAlignment:NSTextAlignmentCenter];
         
-        _timeLabel.textColor = MyDiaryThemeBlueColor;
-        
-        _timeLabel.text = @"星期四 17:39";
+        _timeLabel.textColor = [UIColor whiteColor];
         
         [_timeLabel sizeToFit];
     }
